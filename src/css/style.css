@@ -1,25 +1,25 @@
 /* General */
 :root {
   /* colors */
-  --primary: #B5A1E5; 
+  --primary: #9d072a; 
   --on-primary: #100E17; 
-  --background: #131214;
+  --background: #151414;
   --on-background: #EAE6F2;
   --surface: #303032;
   --on-surface: #DDDAE5;
   --on-surface-variant: #7B7980; 
   --on-surface-variant-2: #B9B6BF;
   --outline: #605f60;
-  --bg-aqi-1: #89E589;
-  --on-bg-aqi-1: #1F331F;
-  --bg-aqi-2: #E5DD89;
+  --bg-aqi-1: #8ff78f;
+  --on-bg-aqi-1: #263b26;
+  --bg-aqi-2: #e2d976;
   --on-bg-aqi-2: #33311F;
-  --bg-aqi-3: #E5C089;
-  --on-bg-aqi-3: #332B1F;
-  --bg-aqi-4: #E58989;
-  --on-bg-aqi-4: #331F1F;
-  --bg-aqi-5: #E589B7;
-  --on-bg-aqi-5: #331F29;
+  --bg-aqi-3: #ff6c02;
+  --on-bg-aqi-3: #3f3027;
+  --bg-aqi-4: #ff3c0c;
+  --on-bg-aqi-4: #331f1fc0;
+  --bg-aqi-5: #9d072a;
+  --on-bg-aqi-5: #331f1f;
   --white: hsl(0, 0%, 100%);
   --white-alpha-4: hsla(0, 0%, 100%, 0.04);
   --white-alpha-8: hsla(0, 0%, 100%, 0.08);
@@ -30,7 +30,7 @@
   --gradient-2: linear-gradient(180deg, hsla(260, 5%, 12%, 0) 0%, hsla(260, 5%, 12%, 0.8) 65%, hsl(260, 5%, 12%) 100%);
 
   /* typography */
-  --ff-nunito-sans: 'Segoe UI', sans-serif;
+  --ff-segoe-ui: 'Segoe UI', sans-serif;
 
   /* font size */
   --heading: 5.6rem;
@@ -96,7 +96,7 @@ button {
 
 html {
   scroll-behavior: smooth;
-  font-family: var(--ff-nunito-sans);
+  font-family: var(--ff-segoe-ui);
   font-size: 10px;
 }
 
