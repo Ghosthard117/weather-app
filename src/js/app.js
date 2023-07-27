@@ -442,6 +442,7 @@ export function updateWeather(lat, lon)  {
 
 }
 
+// error 404 section
 export function error404() {
   errorContent.style.display = 'flex'
 }
